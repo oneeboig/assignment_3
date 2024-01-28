@@ -15,7 +15,8 @@ bool isdoorclose();
 }
 Door::bool isdoorclose(){
   return isclose;
-}
+Door::bool isdooropen(){
+    return isopen;
 int main(){
     return 0;
 }

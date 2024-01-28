@@ -6,7 +6,9 @@ bool isopen;
 bool isclose;
 public:
 Door();
-void opendoor();
+void opendoor(){
+    // door open function body
+}
 void closedoor();
 void lockdoor();
 void unlockdoor();

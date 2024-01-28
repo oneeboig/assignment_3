@@ -13,6 +13,9 @@ void unlockdoor();
 bool isdooropen();
 bool isdoorclose();
 }
+Door::bool isdoorclose(){
+  return isclose;
+}
 int main(){
     return 0;
 }

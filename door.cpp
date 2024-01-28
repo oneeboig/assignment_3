@@ -9,7 +9,9 @@ Door();
 void opendoor(){
     // door open function body
 }
-void closedoor();
+void closedoor(){
+      // door close function body
+}
 void lockdoor();
 void unlockdoor();
 bool isdooropen();
